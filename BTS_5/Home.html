@@ -1,97 +1,104 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Discover Japan</title>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body class="text-white bg-black">
-        <div class="row container-fluid">
-            <div class="col-6 col-sm-6">
-                <p style="margin: 0px;"><a href="Home.html" class="text-white p-font-reg" style="font-size: 40px; text-decoration: none;">Home</a></p>
+<head>
+    <title>Discover Japan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body class="text-white bg-black">
+    <header class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 text-center text-md-start">
+                <a href="Home.html" class="text-white p-font-reg" style="font-size: 40px; text-decoration: none;">Home</a>
             </div>
-            <div class="col-sm-0 col-md-6 container-center">
-                <p style="font-size: 20px; margin: 0px;" class="text-white p-font-reg"><a>FOOD</a>  |  <a>PLACES</a>  |  <a>EXPERIENCES</a></p>
+            <div class="col-12 col-md-6 text-center text-md-end">
+                <nav>
+                    <a class="text-white p-font-reg" style="font-size: 20px;">FOOD</a> |
+                    <a class="text-white p-font-reg" style="font-size: 20px;">PLACES</a> |
+                    <a class="text-white p-font-reg" style="font-size: 20px;">EXPERIENCES</a>
+                </nav>
             </div>
         </div>
-        <div class="bg-white container-fluid" style="background-image: url(Immagini/japan.jpg); background-size: cover; height: 300px;">
-            <div class="japan-title" style="width: fit-content;">
-                <h1 class="text-black titles-font" style="font-size: 170px; margin-bottom: 0px;">JAPAN</h1>
-                <div style="width: 125px; height: 125px; border-radius: 50%; background-color: #E61610;"></div>
+    </header>
+    <section class="bg-white text-center" style="background-image: url('Immagini/japan.jpg'); background-size: cover; height: 300px;">
+        <div class="container d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
+            <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+              <h1 class="text-black titles-font" style="font-size: 15vw; margin-bottom: 0px;">JAPAN</h1>
+              <div style="width: 12vw; height: 12vw; border-radius: 50%; background-color: #E61610;"></div>
             </div>
-            <h2 class="text-black titles-font" style="width: fit-content;">THE LAND OF THE RISING SUN</h2>
-        </div><br /><br />
-        <h3 class="titles-font" style="text-align: center; font-size: 60px; color: #E61610;">Explore</h3>
-        <div class="container-fluid">
-            <div id="demo" class="carousel slide" data-bs-ride="carousel" style="width: 80%; margin: auto;">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+            <h2 class="text-black titles-font" style="font-size: 5vw;">THE LAND OF THE RISING SUN</h2>
+        </div>
+    </section>
+    <section class="container-fluid text-center my-5">
+        <h3 class="titles-font" style="font-size: 10vw; color: #E61610;">Explore</h3><br />
+        <div id="demo" class="carousel slide" data-bs-ride="carousel" style="width: 80%; margin: auto;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
                     <img src="Immagini/Sushi.png" alt="Sushi" class="d-block w-100">
                     <div class="carousel-caption">
-                      <h3>Sushi</h3>
-                      <p>Il tipico cibo giapponese</p>
+                        <h3>Sushi</h3>
+                        <p>Il tipico cibo giapponese</p>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="Immagini/Torii.jpg" alt="Chicago" class="d-block w-100">
-                    <div class="carousel-caption">
-                      <h3>Torii</h3>
-                      <p>Il tempio simbolo del giappone</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="Immagini/Osaka2.jpg" alt="New York" class="d-block w-100">
-                    <div class="carousel-caption">
-                      <h3>Osaka</h3>
-                      <p>La città del divertimento giapponese</p>
-                    </div>
-                  </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
-              </div>
-        </div><br /><br />
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xl-8 col-md-8 col-sm-12">
-              <h3 class="titles-font" style="font-size: 60px; color: #E61610;">Discover the place</h3>
-              <p class="p-font-reg" style="font-size: 36px;">Welcome to Japan, where ancient traditions meet modern vibrance. Cherry blossoms sway in the breeze, and serene temples rise among majestic mountains. From Tokyo's lively streets to Kyoto's tranquil beauty, every moment reveals a rich tapestry of culture. Discover the enchantment of this archipelago, where beauty and history intertwine.</p>
+                <div class="carousel-item">
+                    <img src="Immagini/Torii.jpg" alt="Torii" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Torii</h3>
+                        <p>Il tempio simbolo del Giappone</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Immagini/Osaka2.jpg" alt="Osaka" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Osaka</h3>
+                        <p>La città del divertimento giapponese</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-xl-4 col-md-4 col-sm-12">
-              <img src="Immagini/toriiDisegno.png" width="400px">
-            </div>
-          </div><br />
-          <div class="row">
-            <div class="col-xl-4 col-md-4 col-sm-12">
-              <img src="Immagini/cherryblossom.png" width="400px">
-            </div>
-            <div  class="col-xl-8 col-md-8 col-sm-12">
-              <h3 class="titles-font" style="font-size: 60px; color: #E61610; text-align: right;">Discover the people</h3>
-              <p class="p-font-reg" style="font-size: 36px; text-align: right;">Japanese people are known for their politeness, respect for tradition, and strong sense of community. They blend modernity with cultural heritage, valuing hospitality and harmony in social interactions. With a rich history and vibrant culture, Japan has a dynamic society that balances innovation and tradition.</p>
-            </div>
-          </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
-        <footer style="height: 250px; background-color: #FF8A84;"><br />
-          <p style="font-size: 30px; text-align: center;" class="p-font-reg">CONTACT US  |  FEEDBACK</p>
-          <p style="font-size: 20px; text-align: center;" class="p-font-reg">Copyright 2024 Matta Leonardo</p>
-          <div style="width: fit-content; margin: auto; display: flex; flex-direction: row; justify-content: space-around;">
-            <img src="Immagini/Instagram.png" width="50px">
-            <img>
-            <img>
-            <img>
-          </div>
-        </footer>
-        <script src="bootstrap.bundle.min.js"></script>
-    </body>
+    </section>
+    <section class="container-fluid">
+        <div class="row align-items-center my-5">
+            <div class="col-lg-8 col-md-12">
+                <h3 class="titles-font" style="font-size: 60px; color: #E61610;">Discover the place</h3>
+                <p class="p-font-reg" style="font-size: 36px;">Welcome to Japan, where ancient traditions meet modern vibrance. Cherry blossoms sway in the breeze, and serene temples rise among majestic mountains. From Tokyo’s lively streets to Kyoto’s tranquil beauty, every moment reveals a rich tapestry of culture. Discover the enchantment of this archipelago, where beauty and history intertwine.</p>
+            </div>
+            <div class="col-lg-4 col-md-12 text-center">
+                <img src="Immagini/Torii2.png" class="img-fluid" alt="Torii gate">
+            </div>
+        </div>
+        <div class="row align-items-center my-5">
+            <div class="col-lg-4 col-md-12 text-center">
+                <img src="Immagini/Cherryblossom.png" class="img-fluid" alt="Cherry blossom tree">
+            </div>
+            <div class="col-lg-8 col-md-12 text-end">
+                <h3 class="titles-font" style="font-size: 60px; color: #E61610;">Meet the people</h3>
+                <p class="p-font-reg" style="font-size: 36px;">Japanese people are known for their politeness, respect for tradition, and strong sense of community. They blend modernity with cultural heritage, valuing hospitality and harmony in social interactions. With a rich history and vibrant culture, Japan has a dynamic society that balances innovation and tradition.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center py-5" style="background-color: #FF8A84;">
+        <p class="p-font-reg" style="font-size: 30px;">CONTACT US | FEEDBACK</p>
+        <p class="p-font-reg" style="font-size: 20px;">&copy; 2024 Matta Leonardo</p>
+        <div class="d-flex justify-content-center">
+            <img src="Immagini/Instagram.png" width="50px" alt="Instagram">
+            <img src="Immagini/Facebook.png" width="50px" alt="Facebook">
+            <img src="Immagini/github.png" width="50px" alt="GitHub">
+            <img src="Immagini/Linkedin.png" width="50px" alt="LinkedIn">
+        </div>
+    </footer>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
 </html>
